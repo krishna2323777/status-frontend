@@ -13,7 +13,7 @@ function App() {
     formData.append("file", file);
 
     const { data } = await axios.post(
-      "https://status-backend-1rc2.onrender.com//api/analyze", 
+      "https://status-backend-1rc2.onrender.com/api/analyze", 
       formData,
       {
         headers: { "Content-Type": "multipart/form-data" },
